@@ -1,0 +1,14 @@
+<td><input type="text" name="t1" size="30" value="<?php if(!isset($_GET['ll']))
+{
+$to=$_GET['c1'];
+$tos=implode(",",$to);
+echo $tos;
+}
+else
+{
+	
+}
+	
+	?>">
+<a href="lawlist.php" name="ll">Lawyers List</a>
+</td>
